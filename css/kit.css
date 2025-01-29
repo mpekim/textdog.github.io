@@ -285,7 +285,7 @@ section.footer div#social{
 }
 
 section.footer div#social img{
-   display: flex;
+   display: inline;
    align-items: center;
    width: 25px;
    height: 25px;
@@ -293,6 +293,7 @@ section.footer div#social img{
    border-radius: 5px;
    position: relative;
    bottom: 0.5em;
+   cursor: pointer;
 }
 
 section.footer div.laurels{
@@ -303,6 +304,7 @@ section.footer div.laurels{
 
 section.footer div#social img.laurel{
    display: inline;
+   cursor: crosshair;
    width: 90px;
    height: 60px;
 }
@@ -319,10 +321,10 @@ section.footer div#contact h1{
 }
 
 section.footer div#contact form{
-   background-color: #32CD32;
-   color: #FFFFFF;
+   background-color: #FFFFFF;
+   color: #000000;
    margin: auto;
-   width: 350px;
+   width: auto;
    padding: 5px 0px 5px 0px;
    border-radius: 5px;
    position: relative;
@@ -345,16 +347,15 @@ section.footer div#contact p{
 }
 
 section.footer div#contact form button{
-   background-color: #000000;
-   color: #FFFFFF;
+   background-color: #FFFFFF;
+   color: #000000;
    position: relative;
    border-radius: 5px;
    cursor: pointer;
    font-weight: bold;
 }
 
-section.footer div#contact img{
-   display: inline;
+section.footer div#contact div#social img.social{
    width: 150px;
    height: 100px;
    margin: auto;
@@ -364,7 +365,7 @@ section.footer div#contact img{
 /* Animations */
 
 @media(prefers-reduced-motion: no-preference){
-   div#social img.social:hover{
+   div#social img:hover{
       animation: img-highlight infinite 1s linear;
   }
 

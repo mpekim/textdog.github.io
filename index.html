@@ -25,10 +25,12 @@
                         Like in July. 
                     </h2>
                     <img class="head-laurel" src="images/lau_2024.png" 
-                    onclick="accordion(accMenu)" alt="LAU 2024"/>
+                    onclick="accordion(accMenu, tooltip[0])" onmouseover="showTooltip(tooltip[0])"
+                     alt="LAU 2024"/>
                     <img class="head-laurel" src="images/bif-25.png" 
-                    onclick="accordion(accMenu)" onmouseover="showTooltip(tooltip)" alt="Brussels Indie Film 2025"/>
-                    <p class="tooltip">View Awards!</p>
+                    onclick="accordion(accMenu, tooltip[0])" onmouseover="showTooltip(tooltip[0])" 
+                     alt="Brussels Indie Film 2025"/>
+                    <p class="tooltip">^ Open Awards ^</p>
                     <div id="accol">
                         <img class="laurel" src="images/bif-25.png" alt="BIF Laurel 2025"/>
                         <img class="laurel" src="images/aff_2024.png" alt="AFF Laurel 2024"/>
@@ -61,7 +63,7 @@
             <main>
                 <h3 class="show-year"></h3>
                 <form action="https://gmail.us2.list-manage.com/subscribe/post?u=75fff743352468bfca6df674e&id=aabf948cfe&f_id=00ac5ee0f0" method="post">
-                    <strong>Contact:</strong>
+                    <strong>Get Updates:</strong>
                     <input type="email" name="EMAIL" placeholder="email address" />
                     <button type="submit">Subscribe</button>
                 </form>
@@ -112,7 +114,7 @@
             <img src="images/tire-warehouse3.png" />
             <img src="images/weather2.png" />
         </section>
-        <section>
+        <section class="trailer">
             <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1047286253?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="RAVAGE Trailer"></iframe>
             </div><script src="https://player.vimeo.com/api/player.js"></script>

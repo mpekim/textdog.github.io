@@ -101,12 +101,12 @@ section.above-the-fold header nav a img {
 section.above-the-fold div.vertical-align p.tooltip{
     display: inline;
     position: absolute;
-    top: 12%;
+    top: 7%;
     right: 10%;
-    visibility: visible;
+    visibility: hidden;
     color: #000000;
     border-radius: 2px;
-    z-index: 1;
+    z-index: 5;
 }
 
 section.above-the-fold div.vertical-align img.head-laurel:hover{
@@ -127,7 +127,7 @@ section.above-the-fold div.vertical-align img.head-laurel{
     display: none;
     position: absolute;
     right: 5%;
-    top: 10%;
+    top: 8.7%;
     width: auto;
     height: 0%;
     border-radius: 5px;

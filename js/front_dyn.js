@@ -28,29 +28,37 @@ function setShowDates(showDates){
     showDates.innerHTML = text.replace("{next}", date.getFullYear() + 1);
 }
 
-function accordion(accMenu){
+function accordion(accMenu, tooltip){
     if (accMenu.style.height === "0%")
     {
         accMenu.style.height = "auto";
         accMenu.style.display = "inline";
+        tooltip.innerHTML = "^ Close Awards ^"
     }
     else{
         accMenu.style.height = "0%";
         accMenu.style.display ="none";
+        tooltip.innerHTML = "^ Open Awards ^"
     }
 }
 
 function showTooltip(tooltip){
     tooltip.style.visibility = "visible";
+
+}
+
+function hideTooltip(tooltip){
+    tooltip.stylecolor = "red";
 }
 
 setShowDates(showDates);
 accMenu.style.display = "none";
 accMenu.style.height = "0%";
+tooltip[0].style.visibility = "hidden";
 
 // Adding Event Listeners.
 for (let i = 0; i < accMenuBut.length; i++)
 {
-    accMenuBut[i].addEventListener("hover", showTooltip(tooltip));
-    accMenuBut[i].addEventListener("click", accordion(accMenu));
+    accMenuBut[i].addEventListener("hover", showTooltip(tooltip[0]));
+    accMenuBut[i].addEventListener("click", accordion(accMenu, tooltip[0]));
 }
