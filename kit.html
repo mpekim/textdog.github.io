@@ -7,9 +7,6 @@
         <meta name="description" content="description of ravage media kit" />
         <meta name="keywords" content="keywords here" />
         <link href="./css/kit.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="./js/ravage.js"></script>
-        <script type="text/javascript" src="./js/portal.js"></script>
-
     </head>
     <body>
         <section class="header-content">
@@ -168,7 +165,7 @@
                 </ul>
             </div>-->
             <section class="navbox">
-                <nav>
+                <nav id="nav">
                     <div class="navlink">
                         <a href="kit.html#syn">Synopsis</a>
                     </div>
@@ -183,6 +180,7 @@
                     </div>
                 </nav>
             </section>
+            <button id="navBut" onclick="navAcc(accNav)">NAV</button>
         </section>
         <section class="footer">
             <!--<div id="other">
@@ -225,4 +223,6 @@
             </div>
         </section>
     </body>
+    <script type="text/javascript" src="./js/portal.js"></script>
+    <script type="text/javascript" src="./js/kit_dyn.js"></script>
 </html>
