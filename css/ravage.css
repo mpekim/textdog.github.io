@@ -461,6 +461,15 @@ section.below-the-fold img {
         left: 60%;
         bottom: 30%;
     }
+    section.above-the-fold div.vertical-align p.tooltip{
+        position: relative;
+        bottom: 50%;
+        right: 30%;
+    }
+    section.above-the-fold div.vertical-align img.head-laurel{
+        position: relative;
+        bottom: 1em;
+    }
     section.above-the-fold div.vertical-align div#accol{
         position: relative;
         top: 32%;

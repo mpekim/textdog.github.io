@@ -471,9 +471,8 @@ section.footer div#contact div#social img.social{
       left: 1em;
    }
 
-   section.main div.synopsis div.video iframe{
+   section.main div.synopsis div.video{
       position: relative;
-      left: -12em;
       width: 50%;
       height: 180px;
    }
