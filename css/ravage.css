@@ -284,6 +284,7 @@ section.above-the-fold main img.social{
 section.above-the-fold main div.social img{
     position: relative;
     left: 90%;
+    top: 10%;
     bottom: 4em;
     height: 25px;
     width: 25px;
@@ -455,10 +456,20 @@ section.below-the-fold img {
     section.above-the-fold form input {
         width: 100%;
     }
-    section.above-the-fold main img.social{
+    section.above-the-fold main div.social img{
         position: relative;
-        left: 50%;
-        bottom: -2em;
+        left: 60%;
+        bottom: 30%;
+    }
+    section.above-the-fold div.vertical-align div#accol{
+        position: relative;
+        top: 32%;
+        width: 100%;
+        height: auto;
+    }
+    section.above-the-fold div.vertical-align div#accol img{
+        width: 30%;
+        height: 20%;
     }
     section.above-the-fold main h4 {
         line-height: 1.4em;
