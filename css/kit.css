@@ -292,14 +292,14 @@ section.footer div#social img{
    padding-left: 10px;
    border-radius: 5px;
    position: relative;
-   bottom: 0.5em;
+   bottom: -0.4em;
    cursor: pointer;
 }
 
 section.footer div.laurels{
    position: absolute;
    right: 3em;
-   bottom: -1em;
+   bottom: 0.2em;
 }
 
 section.footer div#social img.laurel{
@@ -428,7 +428,6 @@ section.footer div#contact div#social img.social{
 
    body p{
       position: relative;
-      left: 0em;
       width: 40%;
    }
 
@@ -436,7 +435,6 @@ section.footer div#contact div#social img.social{
       align-items: flex-start;
       display: block;
       position: relative;
-      left: 0;
       margin-bottom: 0em;
    }
 
@@ -480,7 +478,7 @@ section.footer div#contact div#social img.social{
    
    section.main div.synopsis section.trailer-laurels img{
       position: relative;
-      left: 50%;
+      left: 0;
    }
    
    section.main div.synopsis ul li{
@@ -494,9 +492,10 @@ section.footer div#contact div#social img.social{
       bottom: 10%;
       word-wrap: break-word;
       width: auto;
-      height: 20%;
+      height: 18%;
       background-color: #FFFFFF;
       border-radius: 5px;
+      border: 1px solid red;
    }
 
    section.main section.navbox div.navlink{
@@ -562,6 +561,7 @@ section.footer div#contact div#social img.social{
    }
 
    section.footer div.container{
+      background-color: #FFFFFF;
       position: fixed;
       bottom: 0px;
       left: 0px;
