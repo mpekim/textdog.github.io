@@ -470,8 +470,12 @@ section.footer div#contact div#social img.social{
 
    section.main div.synopsis div.video{
       width: 80%;
-      height: 180px;
+      height: auto;
       margin: auto;
+   }
+
+   section.main div.synopsis div.video iframe{
+      height: 180px;
    }
    
    section.main div.synopsis section.trailer-laurels img{
@@ -544,7 +548,7 @@ section.footer div#contact div#social img.social{
    }
       
    section.main div#ss nav#shows a{
-      width: 80%;
+      width: 95%;
       word-wrap: break-word;
    }
 
@@ -604,7 +608,7 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.laurels img{
       position: relative;
-      left: 72%;
+      left: 20%;
       bottom: 0%;
       width: 15%;
       height: 10%;
