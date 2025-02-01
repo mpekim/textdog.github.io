@@ -466,7 +466,6 @@ section.footer div#contact div#social img.social{
    section.main div.synopsis p{
       text-align: center;
       position: relative;
-      left: 1em;
    }
 
    section.main div.synopsis div.video{
@@ -536,7 +535,7 @@ section.footer div#contact div#social img.social{
       position: relative;
       margin: auto;
       width: 45%;
-      height: 100px;
+      height: 300px;
    }
    
    section.main div#ss nav#shows{
@@ -581,9 +580,8 @@ section.footer div#contact div#social img.social{
       display: block;
       font-size: 10px;
       position: relative;
-      top: 3em;
       left: 0%;
-      width: 150px;
+      width: 50%;
    }
 
    section.footer div#contact form{
@@ -596,16 +594,15 @@ section.footer div#contact div#social img.social{
    }
 
    section.footer div#contact form input{
-      width: 30%;
+      width: 40%;
    }
 
    section.footer div.container div#contact form button{
-      font-size: 80%;
-      width: 80%;
+      font-size: 100%;
+      width: 100%;
    }
 
    section.footer div.container div#social div.laurels img{
-      display: block;
       position: relative;
       left: 72%;
       bottom: 0%;
