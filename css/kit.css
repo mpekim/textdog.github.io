@@ -472,6 +472,7 @@ section.footer div#contact div#social img.social{
 
    section.main div.synopsis div.video{
       position: relative;
+      left: 25%;
       width: 50%;
       height: 180px;
    }
@@ -523,6 +524,8 @@ section.footer div#contact div#social img.social{
 
    section.main div#artistbios img{
       position: relative;
+      width: 65%;
+      height: 65%;
    }
 
    section.main div#artistbios p{
@@ -534,7 +537,7 @@ section.footer div#contact div#social img.social{
       display: inline;
       position: relative;
       right: 28%;
-      width: 20%;
+      width: 45%;
       height: 100px;
    }
    
