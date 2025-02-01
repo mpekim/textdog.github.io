@@ -593,7 +593,7 @@ section.footer div#contact div#social img.social{
    }
 
    section.footer div#contact form input{
-      width: 50%;
+      width: 30%;
    }
 
    section.footer div.container div#contact form button{
@@ -604,7 +604,7 @@ section.footer div#contact div#social img.social{
    section.footer div.container div#social div.laurels img{
       display: block;
       position: relative;
-      left: 75%;
+      left: 60%;
       bottom: 0%;
       width: 15%;
       height: 10%;
