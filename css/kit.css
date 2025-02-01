@@ -544,11 +544,11 @@ section.footer div#contact div#social img.social{
    
    section.main div#ss nav#shows{
       position: relative;
-      width: 80%;
+      width: 100%;
    }
       
    section.main div#ss nav#shows a{
-      width: 95%;
+      width: 100%;
       word-wrap: break-word;
    }
 
@@ -608,7 +608,7 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.laurels img{
       position: relative;
-      left: 20%;
+      left: 60%;
       bottom: 0%;
       width: 15%;
       height: 10%;
