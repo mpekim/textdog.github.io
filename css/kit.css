@@ -363,7 +363,6 @@ section.footer div#contact div#social img.social{
 }
 
 /* Animations */
-
 @media(prefers-reduced-motion: no-preference){
    div#social img:hover{
       animation: img-highlight infinite 1s linear;
@@ -428,11 +427,11 @@ section.footer div#contact div#social img.social{
 
    body p{
       position: relative;
-      width: 40%;
+      width: 80%;
    }
 
    section.header-content div.title{
-      align-items: flex-start;
+      text-align: center;
       display: block;
       position: relative;
       margin-bottom: 0em;
@@ -445,6 +444,7 @@ section.footer div#contact div#social img.social{
 
    section.header-content div.title h1{
       margin-bottom: .2em;
+      margin: auto;
    }
 
    section.header-content div.title h2{
@@ -460,7 +460,6 @@ section.footer div#contact div#social img.social{
    }
 
    section.main h3{
-      position: relative;
       text-align: center;
    }
 
@@ -471,10 +470,9 @@ section.footer div#contact div#social img.social{
    }
 
    section.main div.synopsis div.video{
-      position: relative;
-      left: 25%;
-      width: 50%;
+      width: 80%;
       height: 180px;
+      margin: auto;
    }
    
    section.main div.synopsis section.trailer-laurels img{
@@ -483,7 +481,7 @@ section.footer div#contact div#social img.social{
    }
    
    section.main div.synopsis ul li{
-      text-align: center;
+      text-align: left;
    }
    
    section.main section.navbox{
@@ -536,23 +534,24 @@ section.footer div#contact div#social img.social{
    section.main div#stills img{
       display: inline;
       position: relative;
-      right: 28%;
+      margin: auto;
       width: 45%;
       height: 100px;
    }
    
    section.main div#ss nav#shows{
       position: relative;
-      width: 40%;
+      width: 80%;
    }
       
    section.main div#ss nav#shows a{
-      width: 40%;
+      width: 80%;
       word-wrap: break-word;
    }
-    
+
    section.main div#ss nav#shows ul li p{
       width: 80%;
+      text-align: center;
    }
    
    section.footer div#contact{
