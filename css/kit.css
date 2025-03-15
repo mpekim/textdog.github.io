@@ -598,11 +598,11 @@ section.footer div#contact div#social img.social{
       text-align: center;
       position: absolute;
       width: 40%;
+      right: 15%;
    }
 
    section.footer div#contact form input{
       position: relative;
-      right: 15%;
       width: 40%;
    }
 
