@@ -583,12 +583,13 @@ section.footer div#contact div#social img.social{
    }
 
    section.footer div#contact p{
-      display: block;
-      font-size: 10px;
+      display: inline;
+      font-size: 20px;
       position: relative;
       left: 0%;
       bottom: 5%;
       width: 50%;
+      border: 1px solid red;
    }
 
    section.footer div#contact form{
@@ -611,7 +612,7 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.laurels img{
       position: relative;
-      left: 30%;
+      left: 40%;
       bottom: 0%;
       width: 15%;
       height: 10%;
