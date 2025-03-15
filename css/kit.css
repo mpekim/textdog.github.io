@@ -590,18 +590,19 @@ section.footer div#contact div#social img.social{
       bottom: 5%;
       width: 50%;
       border: 1px solid red;
+      word-wrap: break-word;
    }
 
    section.footer div#contact form{
       display: block;
       text-align: center;
-      position: relative;
-      bottom: 0%;
-      right: 15%;
+      position: absolute;
       width: 40%;
    }
 
    section.footer div#contact form input{
+      position: relative;
+      right: 15%;
       width: 40%;
    }
 
@@ -612,7 +613,7 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.laurels img{
       position: relative;
-      left: 40%;
+      left: 38%;
       bottom: 0%;
       width: 15%;
       height: 10%;
