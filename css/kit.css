@@ -587,6 +587,7 @@ section.footer div#contact div#social img.social{
       font-size: 10px;
       position: relative;
       left: 0%;
+      bottom: 5%;
       width: 50%;
    }
 
@@ -594,8 +595,8 @@ section.footer div#contact div#social img.social{
       display: block;
       text-align: center;
       position: relative;
-      bottom: 2%;
-      left: 0%;
+      bottom: 0%;
+      right: 15%;
       width: 40%;
    }
 
@@ -610,7 +611,7 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.laurels img{
       position: relative;
-      left: 45%;
+      left: 30%;
       bottom: 0%;
       width: 15%;
       height: 10%;
