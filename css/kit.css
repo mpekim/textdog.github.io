@@ -442,6 +442,9 @@ section.footer div#contact div#social img.social{
       color: #000000;
       text-decoration: none;
       margin: auto;
+      text-align: center;
+      position: relative;
+      left: 30%;
    }
 
    section.header-content div.title h1{
@@ -454,6 +457,8 @@ section.footer div#contact div#social img.social{
       margin-bottom: 1em;
       padding-left: 0px;
       line-height: 1.6em;
+      position: relative;
+      left: 30%;
    }
 
    section.main{
