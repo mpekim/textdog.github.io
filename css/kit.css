@@ -588,8 +588,7 @@ section.footer div#contact div#social img.social{
       position: relative;
       left: 0%;
       bottom: 5%;
-      width: 50%;
-      border: 1px solid red;
+      width: 300px;
       word-wrap: break-word;
    }
 
