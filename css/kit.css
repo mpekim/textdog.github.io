@@ -468,6 +468,8 @@ section.footer div#contact div#social img.social{
 
    section.main h3{
       text-align: center;
+      position: relative;
+      right: 0%;
    }
 
    section.main div.synopsis p{
@@ -588,12 +590,12 @@ section.footer div#contact div#social img.social{
    }
 
    section.footer div#contact p{
-      display: inline;
+      display: block;
       font-size: 20px;
       position: relative;
       left: 0%;
       bottom: 5%;
-      width: 100px;
+      width: 300px;
       word-wrap: break-word;
    }
 
