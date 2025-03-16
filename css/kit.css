@@ -526,7 +526,7 @@ section.footer div#contact div#social img.social{
    section.main button#navBut{
       position: fixed;
       left: 0%;
-      top: 19.5%;
+      top: 7.5%;
       font-weight: bold;
       border: none;
       background-color: #FFFFFF;
@@ -615,6 +615,13 @@ section.footer div#contact div#social img.social{
    section.footer div.container div#contact form button{
       font-size: 100%;
       width: 100%;
+      position: relative;
+      left: 70%;
+   }
+
+   section.footer div.container div#social div.social img{
+      height: 10%;
+      width: 10%;
    }
 
    section.footer div.container div#social div.laurels img{
