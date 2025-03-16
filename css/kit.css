@@ -26,19 +26,19 @@ body{
    cursor: crosshair;
    display: flex;
    flex-direction: column;
-   text-align: left;
    justify-content: center;
-   position: relative;
    font-family: 'Inter';
+   position: relative;
+   text-align: left;
    z-index: 0;
 }
 
 /*Header Section*/
 section.header-content{
    align-items: center;
+   font-weight: normal;
    position: relative;
    top: 0em;
-   font-weight: normal;
 }
 
 section.header-content div.title{
@@ -51,30 +51,29 @@ section.header-content div.title{
 }
 
 section.header-content h1{
-   text-transform: uppercase;
    font-size: 3.3em;
    font-weight: normal;
+   text-transform: uppercase;
 }
 
 section.header-content h2{
-   text-transform: uppercase;
-   padding-left: 2em;
-   line-height: 1.4em;
    font-size: 1.1em;
    font-weight: bold;
+   line-height: 1.4em;
+   padding-left: 2em;
+   text-transform: uppercase;
 }
 
 section.header-content a{
    color: #000000;
+   cursor: pointer;
+   font-size: 1.1em;
+   line-height: 1.4em;
    position: relative;
    left: 0em;
    text-align: right;
-   text-transform: uppercase;
    text-decoration: none;
-   text-align: right;
-   line-height: 1.4em;
-   font-size: 1.1em;
-   cursor: pointer;
+   text-transform: uppercase;
 }
 
 /*Main Content*/
@@ -85,12 +84,12 @@ section.main{
 }
 
 section.main h1{
-   text-transform: uppercase;
-   padding-left: 2em;
-   line-height: 1.4em;
-   text-align: left;
    font-size: 1.4em;
    font-weight: bold;
+   line-height: 1.4em;
+   padding-left: 2em;
+   text-align: left;
+   text-transform: uppercase;
 }
 
 section.main h2{
@@ -503,8 +502,8 @@ section.footer div#contact div#social img.social{
       position: fixed;
       bottom: 10%;
       word-wrap: break-word;
-      width: auto;
-      height: 10%;
+      width: 40%;
+      height: 30%;
       background-color: #FFFFFF;
       border-radius: 5px;
       border: 1px solid black;
@@ -518,7 +517,7 @@ section.footer div#contact div#social img.social{
       font-size: 30px;
       font-weight: bold;
       position: relative;
-      right: 1.5em;
+      right: 15%;
       width: 15%;
       word-wrap: break-word;
    }
