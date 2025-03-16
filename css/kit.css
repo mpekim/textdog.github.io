@@ -515,7 +515,7 @@ section.footer div#contact div#social img.social{
    }
 
    section.main section.navbox div.navlink a{
-      font-size: 15%;
+      font-size: 30px;
       font-weight: bold;
       position: relative;
       right: 1.5em;
@@ -529,7 +529,7 @@ section.footer div#contact div#social img.social{
       top: 9.5%;
       font-weight: bold;
       border: none;
-      background-color: #FFFFFF;
+      background-color: rgba(0, 0, 0, 0.0);
       cursor: pointer;
    }
 
