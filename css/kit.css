@@ -504,7 +504,7 @@ section.footer div#contact div#social img.social{
       bottom: 10%;
       word-wrap: break-word;
       width: auto;
-      height: 8%;
+      height: 14%;
       background-color: #FFFFFF;
       border-radius: 5px;
       border: 1px solid black;
@@ -617,13 +617,13 @@ section.footer div#contact div#social img.social{
       width: 100%;
       position: relative;
       left: 70%;
-      bottom: 10%;
+      bottom: 13px;
    }
 
    section.footer div.container div#social div.social img{
       height: 7%;
       width: 7%;
-      right: 40%;
+      right: 28%;
    }
 
    section.footer div.container div#social div.laurels img{
