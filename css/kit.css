@@ -419,43 +419,42 @@ section.footer div#contact div#social img.social{
 /*Mobile Adjustments -- mmorley*/
 @media(max-width: 640px){
    body{
-      text-align: center;
       margin: auto;
+      text-align: center;
    }
 
    body p{
+      margin: auto;
       position: relative;
       width: 80%;
-      margin: auto;
    }
 
    section.header-content div.title{
-      text-align: center;
       display: block;
       position: relative;
-      margin-bottom: 0em;
       margin: auto;
+      text-align: center;
    }
 
    section.header-content a{
       color: #000000;
-      text-decoration: none;
       margin: auto;
-      text-align: center;
       position: relative;
       left: 30%;
+      text-align: center;
+      text-decoration: none;
    }
 
    section.header-content div.title h1{
-      margin-bottom: .2em;
       margin: auto;
+      margin-bottom: .2em;
    }
 
    section.header-content div.title h2{
       font-size: 80%;
+      line-height: 1.6em;
       margin-bottom: 1em;
       padding-left: 0px;
-      line-height: 1.6em;
       position: relative;
       left: 30%;
    }
@@ -466,20 +465,20 @@ section.footer div#contact div#social img.social{
    }
 
    section.main h3{
-      text-align: center;
       position: relative;
       right: 10%;
+      text-align: center;
    }
 
    section.main div.synopsis p{
-      text-align: center;
       position: relative;
+      text-align: center;
    }
 
    section.main div.synopsis div.video{
+      margin: auto;
       width: 80%;
       height: auto;
-      margin: auto;
    }
 
    section.main div.synopsis div.video iframe{
@@ -492,21 +491,20 @@ section.footer div#contact div#social img.social{
    }
    
    section.main div.synopsis ul li{
-      text-align: left;
       margin: auto;
+      text-align: left;
    }
    
    section.main section.navbox{
       background-color: white;
-      text-align: center;
+      border: 1px solid black;
+      border-radius: 5px;
       position: fixed;
       bottom: 10%;
+      width: 30%;
+      height: 20%;
+      text-align: center;
       word-wrap: break-word;
-      width: 40%;
-      height: 30%;
-      background-color: #FFFFFF;
-      border-radius: 5px;
-      border: 1px solid black;
    }
 
    section.main section.navbox div.navlink{
