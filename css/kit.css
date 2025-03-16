@@ -469,7 +469,7 @@ section.footer div#contact div#social img.social{
    section.main h3{
       text-align: center;
       position: relative;
-      right: 0%;
+      right: 10%;
    }
 
    section.main div.synopsis p{
@@ -504,7 +504,7 @@ section.footer div#contact div#social img.social{
       bottom: 10%;
       word-wrap: break-word;
       width: auto;
-      height: 14%;
+      height: 10%;
       background-color: #FFFFFF;
       border-radius: 5px;
       border: 1px solid black;
@@ -614,16 +614,18 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#contact form button{
       font-size: 100%;
-      width: 100%;
+      width: auto;
       position: relative;
       left: 70%;
       bottom: 13px;
+      border: 1px solid black;
+      border-radius: 3px;
    }
 
    section.footer div.container div#social div.social img{
       height: 7%;
       width: 7%;
-      right: 28%;
+      right: 35%;
    }
 
    section.footer div.container div#social div.laurels img{
