@@ -526,6 +526,7 @@ section.footer div#contact div#social img.social{
       border: 1px solid black;
       border-radius: 5px;
       cursor: pointer;
+      font-size: 20px;
       font-weight: bold;
       position: fixed;
       left: 0%;
@@ -621,10 +622,16 @@ section.footer div#contact div#social img.social{
       width: auto;
    }
 
+   section.footer div.container div#social div.social{
+      border: 1px solid red;
+      width: auto;
+   }
+
    section.footer div.container div#social div.social img{
-      width: 7%;
-      height: 7%;
-      right: 35%;
+      width: 10%;
+      height: 10%;
+      right: 25%;
+      bottom: 20px;
    }
 
    section.footer div.container div#social div.laurels img{
