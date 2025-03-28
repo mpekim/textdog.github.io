@@ -306,7 +306,7 @@ section.footer div#social img{
    padding-left: 10px;
    border-radius: 5px;
    position: relative;
-   bottom: -0.4em;
+   bottom: 1em;
    cursor: pointer;
 }
 
@@ -354,7 +354,7 @@ section.footer div#contact form strong{
 section.footer div#contact p{
    position: relative;
    bottom: 0%;
-   left: 25em;
+   left: 20em;
    font-size: 0.8em;
    text-align: right;
    padding-right: 10px;
@@ -602,8 +602,7 @@ section.footer div#contact div#social img.social{
       font-size: 90%;
       position: fixed;
       bottom: 0%;
-      height: 180px;
-      border: 1px solid red;
+      height: 100px;
    }
 
    section.footer div.container{
@@ -640,6 +639,12 @@ section.footer div#contact div#social img.social{
       font-size: 20px;
    }
 
+   section.footer div#contact div#form{
+      position: relative;
+      bottom: 10px;
+      right: 5%;
+   }
+
    section.footer div#contact form input{
       position: relative;
       font-size: 20px;
@@ -658,5 +663,10 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.social{
       width: auto;
+   }
+
+   section.footer div.container div#social img{
+      height: 100px;
+      width: 100px;
    }
 }
