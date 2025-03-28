@@ -101,6 +101,7 @@ section.main h2{
 }
 
 section.main h3{
+   padding-top: 40px;
    font-size: 1.5em;
 }
 
@@ -641,8 +642,8 @@ section.footer div#contact div#social img.social{
 
    section.footer div#contact div#form{
       position: relative;
-      bottom: 10px;
-      right: 5%;
+      bottom: 30px;
+      left: 75%;
    }
 
    section.footer div#contact form input{
@@ -666,7 +667,7 @@ section.footer div#contact div#social img.social{
    }
 
    section.footer div.container div#social img{
-      height: 100px;
-      width: 100px;
+      height: 80px;
+      width: 80px;
    }
 }
