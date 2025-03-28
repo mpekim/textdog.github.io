@@ -189,6 +189,8 @@ section.main div#ss ul li{
    margin: none;
    width: 450px;
    padding-top: 10px;
+   position: relative;
+   right: 5%;
 }
 
 section.main div#ss ul p.date{
@@ -479,7 +481,7 @@ section.footer div#contact div#social img.social{
 
    section.main h3{
       position: relative;
-      right: 30%;
+      left: 8.5%;
       text-align: left;
    }
 
@@ -549,12 +551,13 @@ section.footer div#contact div#social img.social{
 
    section.main div#artistbios img{
       position: relative;
+      left: 8.5%;
       width: 65%;
       height: 65%;
    }
 
    section.main div#artistbios p{
-      text-align: center;
+      text-align: left;
       position: relative;
    }
 
@@ -562,6 +565,7 @@ section.footer div#contact div#social img.social{
       display: inline;
       margin: auto;
       position: relative;
+      left: 8.5%;
       width: 45%;
       height: 300px;
    }
@@ -585,9 +589,11 @@ section.footer div#contact div#social img.social{
       height: 150px;
    }
 
-   section.main div#ss ul li p{
+   section.main div#ss ul li{
       width: 80%;
       text-align: left;
+      position: relative;
+      left: 3%;
    }
    
    section.footer div#contact{
