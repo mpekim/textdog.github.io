@@ -209,7 +209,7 @@ section.main section.navbox{
    /*background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 */
    position: fixed;
-   top: 10em;
+   top: 8em;
    left: 0px;
 
    z-index: 0;
@@ -271,7 +271,7 @@ section.footer h1{
 
 section.footer div.container{
    background-color: #FFFFFF;
-   height: 70px;
+   height: 30px;
    width: 100%;
    position: fixed;
    bottom: 0px;
@@ -284,6 +284,7 @@ section.footer div#contact{
    display: flex;
    position: fixed;
    width: 100%;
+   height: 24px;
    bottom: 1.5em;
    align-items: center;
    z-index: 9;
@@ -302,12 +303,12 @@ section.footer div#social{
 section.footer div#social img{
    display: inline;
    align-items: center;
-   width: 25px;
-   height: 25px;
+   width: 40px;
+   height: 40px;
    padding-left: 10px;
    border-radius: 5px;
    position: relative;
-   bottom: 1em;
+   bottom: -25px;
    cursor: pointer;
 }
 
@@ -352,9 +353,14 @@ section.footer div#contact form strong{
    left: 2px;
 }
 
+section.footer div#contact div#form{
+   position: relative;
+   bottom: -10px;
+}
+
 section.footer div#contact p{
    position: relative;
-   bottom: 0%;
+   bottom: -10px;
    left: 20em;
    font-size: 0.8em;
    text-align: right;
@@ -642,8 +648,8 @@ section.footer div#contact div#social img.social{
 
    section.footer div#contact div#form{
       position: relative;
-      bottom: 30px;
-      left: 75%;
+      bottom: 50px;
+      left: 200px;
    }
 
    section.footer div#contact form input{
@@ -669,5 +675,6 @@ section.footer div#contact div#social img.social{
    section.footer div.container div#social img{
       height: 80px;
       width: 80px;
+      bottom: -30px;
    }
 }
