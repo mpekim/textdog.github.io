@@ -102,7 +102,6 @@ section.main h2{
 
 section.main h3{
    font-size: 1.5em;
-   padding-left: 2.5em;
 }
 
 section.main div{
@@ -142,6 +141,8 @@ section.main div.synopsis section.trailer-laurels img{
 section.main div.synopsis ul li{
    list-style-type: none;
    margin: none;
+   position: relative;
+   left: -40px;
    line-height: 1.25em;
    font-size: 1.1em;
    width: 15em;
@@ -187,6 +188,7 @@ section.main div#ss ul li{
    font-size: 1.1em;
    margin: none;
    width: 450px;
+   padding-top: 10px;
 }
 
 section.main div#ss ul p.date{
@@ -235,6 +237,17 @@ section.main section.navbox div.navlink a:visited{
    text-decoration: none;
    width: 350px;
 }
+
+section.main section.navbox div.laurels{
+   display: block;
+   position: absolute;
+   left: 1300px;
+   top: 0px;
+}
+ section.main section.navbox div.laurels img{
+   width: 100px;
+   height: 105px;
+   }
 
 /*Footer Section*/
 section.footer{
@@ -420,7 +433,7 @@ section.footer div#contact div#social img.social{
 @media(max-width: 640px){
    body{
       margin: auto;
-      text-align: center;
+      text-align: left;
    }
 
    body p{
@@ -433,7 +446,7 @@ section.footer div#contact div#social img.social{
       display: block;
       position: relative;
       margin: auto;
-      text-align: center;
+      text-align: left;
    }
 
    section.header-content a{
@@ -441,7 +454,7 @@ section.footer div#contact div#social img.social{
       margin: auto;
       position: relative;
       left: 30%;
-      text-align: center;
+      text-align: left;
       text-decoration: none;
    }
 
@@ -461,18 +474,18 @@ section.footer div#contact div#social img.social{
 
    section.main{
       margin: auto;
-      text-align: center;
+      text-align: left;
    }
 
    section.main h3{
       position: relative;
       right: 30%;
-      text-align: center;
+      text-align: left;
    }
 
    section.main div.synopsis p{
       position: relative;
-      text-align: center;
+      text-align: left;
    }
 
    section.main div.synopsis div.video{
@@ -492,7 +505,7 @@ section.footer div#contact div#social img.social{
    
    section.main div.synopsis ul li{
       position: relative;
-      left: 10%;
+      left: 4%;
       text-align: left;
    }
    
@@ -504,7 +517,7 @@ section.footer div#contact div#social img.social{
       bottom: 10%;
       width: 30%;
       height: 20%;
-      text-align: center;
+      text-align: left;
       word-wrap: break-word;
    }
 
@@ -561,6 +574,15 @@ section.footer div#contact div#social img.social{
    section.main div#ss nav#shows a{
       width: 100%;
       word-wrap: break-word;
+   }
+
+   section.main section.navbox div.laurels img{
+   display: block;
+      position: relative;
+      left: 0%;
+      bottom: 0%;
+      width: 100px;
+      height: 150px;
    }
 
    section.main div#ss ul li p{
@@ -630,20 +652,5 @@ section.footer div#contact div#social img.social{
 
    section.footer div.container div#social div.social{
       width: auto;
-   }
-
-   section.footer div.container div#social div.social img{
-      width: 10%;
-      height: 10%;
-      right: 30%;
-      bottom: 30px;
-   }
-
-   section.footer div.container div#social div.laurels img{
-      position: relative;
-      left: 38%;
-      bottom: 0%;
-      width: 15%;
-      height: 10%;
    }
 }
