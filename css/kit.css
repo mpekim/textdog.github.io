@@ -189,7 +189,7 @@ section.main div#ss ul li{
    width: 450px;
 }
 
-section.main div#ss ul li p.date{
+section.main div#ss ul p.date{
    font-size: 1.1em;
    font-style: italic;
 }
@@ -338,8 +338,8 @@ section.footer div#contact form strong{
 
 section.footer div#contact p{
    position: relative;
-   bottom: -1em;
-   left: 33em;
+   bottom: 0%;
+   left: 25em;
    font-size: 0.8em;
    text-align: right;
    padding-right: 10px;
@@ -466,7 +466,7 @@ section.footer div#contact div#social img.social{
 
    section.main h3{
       position: relative;
-      right: 10%;
+      right: 30%;
       text-align: center;
    }
 
@@ -491,7 +491,8 @@ section.footer div#contact div#social img.social{
    }
    
    section.main div.synopsis ul li{
-      margin: auto;
+      position: relative;
+      left: 10%;
       text-align: left;
    }
    
